@@ -68,6 +68,7 @@ namespace Snake_videosharp.info_
             {
                 timer.Enabled = false;
                 MessageBox.Show("Конец игры!");
+                this.Close();
             }
 
             int size = snake.length;
