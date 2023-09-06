@@ -38,7 +38,7 @@ namespace Snake_videosharp.info_
         private void labelStart_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Form1 form = new Form1();
+            Form1 form = new Form1(this);
             form.ShowDialog();
             this.Show();
         }
