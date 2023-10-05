@@ -20,9 +20,11 @@ namespace Snake_videosharp.info_
         //todo: Сделать рейтинг игроков
         //todo: Добавить тайтл уменьшения тела
         //todo: Новая игра
-        public Form1()
+        public Form1(Form f)
         {
             InitializeComponent();
+            this.Left = f.Left;
+            this.Top= f.Top;
             stopwatch = new Stopwatch();
             stopwatch.Start();
             map = new Map(panel1);
