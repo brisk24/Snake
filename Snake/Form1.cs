@@ -67,7 +67,7 @@ namespace Snake_videosharp.info_
             if (snake.GameOver())
             {
                 timer.Enabled = false;
-                MessageBox.Show("Конец игры!");
+                MessageBox.Show("Конец игры!", "Информация");
                 this.Close();
             }
 
